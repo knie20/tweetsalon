@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="tweetSalon:war exploded">
+    <output-path>$PROJECT_DIR$/target/tweetSalon</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="tweetSalon" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.sun.faces:jsf-api:2.1.7" />
+          <element id="library" level="project" name="Maven: com.sun.faces:jsf-impl:2.1.7" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/tweetSalon/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="tweetSalon/web/Web" />
+    </root>
+  </artifact>
+</component>
