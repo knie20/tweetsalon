@@ -16,6 +16,14 @@
       <scope>test</scope>
     </dependency>
 
+    <!--PrimeFaces-->
+    <dependency>
+      <groupId>org.primefaces</groupId>
+      <artifactId>primefaces</artifactId>
+      <version>6.1</version>
+    </dependency>
+
+
     <!--JSF Modules-->
     <dependency>
       <groupId>com.sun.faces</groupId>
