@@ -24,12 +24,14 @@
         <b:row>
             <b:column mediumScreen="6" offset="3">
                 <b:form>
-                    <b:inputText>
+                    <b:inputText value="#{searchUserBean.handle}">
                         <f:facet name="prepend">
                             <h:outputText value="@"/>
                         </f:facet>
                     </b:inputText>
-                    <b:commandButton value="Go"/>
+                    <b:commandButton action="#{navigationController.moveToUser()}" value="Go">
+                        <f:actionListener binding="#{searchUserBean.searchUser()}" />
+                    </b:commandButton>
                 </b:form>
             </b:column>
         </b:row>

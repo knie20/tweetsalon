@@ -2,7 +2,7 @@ package edu.uc.it4045.tweetSalon.dto;
 
 import java.util.List;
 
-public class TwitterUser {
+public class TwitterUser implements ITwitterUser {
     private String userId;
     private String createdAt;
     private String name;
