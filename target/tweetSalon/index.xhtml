@@ -7,13 +7,14 @@
       xmlns:f="http://java.sun.com/jsf/core"
       xmlns:b="http://bootsfaces.net/ui">
 <h:head>
-    <title></title>
-</h:head>
-
-<h:body>
+    <title>Start - Tweet Salon</title>
     <ui:insert name = "head" >
         <ui:include src = "static/head.xhtml"/>
     </ui:insert>
+</h:head>
+
+<h:body>
+
 
     <b:container fluid="true">
         <b:jumbotron>
@@ -23,12 +24,14 @@
         <b:row>
             <b:column mediumScreen="6" offset="3">
                 <b:form>
-                    <b:inputText>
+                    <b:inputText value="#{searchUserBean.handle}">
                         <f:facet name="prepend">
                             <h:outputText value="@"/>
                         </f:facet>
                     </b:inputText>
-                    <b:commandButton value="Go"/>
+                    <b:commandButton action="#{navigationController.moveToUser()}" value="Go">
+                        <f:actionListener binding="#{searchUserBean.searchUser()}" />
+                    </b:commandButton>
                 </b:form>
             </b:column>
         </b:row>
