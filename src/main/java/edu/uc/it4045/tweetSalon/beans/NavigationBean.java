@@ -2,6 +2,7 @@ package edu.uc.it4045.tweetSalon.beans;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
+import javax.faces.context.FacesContext;
 import java.io.Serializable;
 
 @ManagedBean(name = "navigationController", eager = true)
@@ -11,8 +12,5 @@ public class NavigationBean implements Serializable{
         return "index";
     }
 
-    public String moveToUser() {
-        return "user";
-
-    }
+    public String moveToUser() { return "user"; }
 }
