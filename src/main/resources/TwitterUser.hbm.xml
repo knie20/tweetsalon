@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="edu.uc.it4045.tweetSalon.dto.TwitterUser" table="twitter_users" catalog="tweetsalon">
+        <id name="userId" type="java.lang.Long">
+            <column name="id"/>
+        </id>
+
+        <property name="createdAt" type="java.util.Calendar">
+            <column name="createdAt" not-null="true" unique="false"/>
+        </property>
+        <property name="displayName" type="java.lang.String">
+            <column name="displayName" length="20" not-null="true" unique="false"/>
+        </property>
+        <property name="handle" type="java.lang.String">
+            <column name="handle" length="15" not-null="true" unique="false"/>
+        </property>
+        <property name="lang" type="java.lang.String">
+            <column name="lang" length="8" not-null="true" unique="false"/>
+        </property>
+        <property name="associatedUrl" type="java.lang.String">
+            <column name="associatedUrl" length="128" not-null="true" unique="false"/>
+        </property>
+        <property name="profileImageUrl" type="java.lang.String">
+            <column name="profileImageUrl" length="128" not-null="true" unique="false"/>
+        </property>
+        <property name="profileSidebarBorderColor" type="java.lang.String">
+            <column name="profileSidebarBorderColor" length="8" not-null="true" unique="false"/>
+        </property>
+        <property name="profileSidebarFillColor" type="java.lang.String">
+            <column name="profileSidebarFillColor" length="8" not-null="true" unique="false"/>
+        </property>
+        <property name="description" type="java.lang.String">
+            <column name="description" length="160" not-null="true" unique="false"/>
+        </property>
+        <property name="followerCount" type="java.lang.Integer">
+            <column name="followerCount" not-null="true" unique="false"/>
+        </property>
+        <property name="friendCount" type="java.lang.Integer">
+            <column name="friendCount" not-null="true" unique="false"/>
+        </property>
+        <property name="statusesCount" type="java.lang.Integer">
+            <column name="statusesCount" not-null="true" unique="false"/>
+        </property>
+        <property name="favoritesCount" type="java.lang.Integer">
+            <column name="favoritesCount" not-null="true" unique="false"/>
+        </property>
+        <property name="listedCount" type="java.lang.Integer">
+            <column name="listedCount" not-null="true" unique="false"/>
+        </property>
+        <property name="accountIsProtected" type="java.lang.Boolean">
+            <column name="accountIsProtected" not-null="true" unique="false"/>
+        </property>
+        <property name="accountIsVerified" type="java.lang.Boolean">
+            <column name="accountIsVerified" not-null="true" unique="false"/>
+        </property>
+    </class>
+</hibernate-mapping>
