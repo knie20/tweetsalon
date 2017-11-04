@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="edu.uc.it4045.tweetSalon.dto.Tweet" table="tweets" catalog="tweetsalon">
+        <id name="tweetId" type="java.lang.Long">
+            <column name="id"/>
+        </id>
+
+        <property name="userId" type="java.lang.Long">
+            <column name="userId" not-null="true" unique="false"/>
+        </property>
+        <property name="createdAt" type="java.util.Calendar">
+            <column name="createdAt" not-null="true" unique="false"/>
+        </property>
+        <property name="text" type="java.lang.String">
+            <column name="text" length="280" not-null="true" unique="false"/>
+        </property>
+        <property name="source" type="java.lang.String">
+            <column name="source" length="32" not-null="true" unique="false"/>
+        </property>
+        <property name="lang" type="java.lang.String">
+            <column name="lang" length="8" not-null="true" unique="false"/>
+        </property>
+        <property name="isQuoteTweet" type="java.lang.Boolean">
+            <column name="isQuoteTweet" not-null="true" unique="false"/>
+        </property>
+        <property name="quotedId" type="java.lang.Long">
+            <column name="quotedId" not-null="false" unique="false"/>
+        </property>
+        <property name="isRetweet" type="java.lang.Boolean">
+            <column name="isRetweet" not-null="true" unique="false"/>
+        </property>
+        <property name="retweetedId" type="java.lang.Long">
+            <column name="retweetedId" not-null="false" unique="false"/>
+        </property>
+        <property name="quoteCount" type="java.lang.Integer">
+            <column name="quoteCount" not-null="true" unique="false"/>
+        </property>
+        <property name="retweetCount" type="java.lang.Integer">
+            <column name="retweetCount" not-null="true" unique="false"/>
+        </property>
+        <property name="replyCount" type="java.lang.Integer">
+            <column name="replyCount" not-null="true" unique="false"/>
+        </property>
+        <property name="favoriteCount" type="java.lang.Integer">
+            <column name="favoriteCount" not-null="true" unique="false"/>
+        </property>
+        <property name="hashtags" type="java.lang.String">
+            <column name="hashtags" length="280" not-null="true" unique="false"/>
+        </property>
+        <property name="userMentions" type="java.lang.String">
+            <column name="userMentions" length="280" not-null="true" unique="false"/>
+        </property>
+        <property name="urls" type="java.lang.String">
+            <column name="urls" length="280" not-null="true" unique="false"/>
+        </property>
+        <property name="symbols" type="java.lang.String">
+            <column name="symbols" length="280" not-null="true" unique="false"/>
+        </property>
+    </class>
+</hibernate-mapping>

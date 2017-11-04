@@ -30,11 +30,12 @@
                         </f:facet>
                     </b:inputText>
                     <b:commandButton action="#{navigationController.moveToUser()}" value="Go">
-                        <f:actionListener binding="#{searchUserBean.searchUser()}" />
+                        <f:actionListener binding="#{searchUserBean.addTweet()}" />
                     </b:commandButton>
                 </b:form>
             </b:column>
         </b:row>
+        <b:button value="add tweet" action="#{searchUserBean.addTweet()}"/>
     </b:container>
 </h:body>
 </html>

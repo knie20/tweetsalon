@@ -1,50 +1,71 @@
 package edu.uc.it4045.tweetSalon.dto;
 
-import java.util.List;
+import java.util.Calendar;
 
 public class Tweet {
-    private String tweetId;
-    private String createdAt;
+    private long tweetId;
+    private long userId;
+    private Calendar createdAt;
     private String text;
-    private String sourceHTML;
-    private boolean isRetweet;
+    private String source;
+    private String lang;
+    private Boolean isQuoteTweet;
+    private long quotedId;
+    private Boolean isRetweet;
+    private long retweetedId;
+    private int quoteCount;
     private int retweetCount;
+    private int replyCount;
     private int favoriteCount;
-    private List hashtags;
-    private List UserMentions;
-    private List urls;
-    private List symbols;
+    private String hashtags;
+    private String userMentions;
+    private String urls;
+    private String symbols;
 
-    public Tweet(String tweetId) {
-    }
+    public Tweet(String tweetId) { }
 
-    public Tweet(String tweetId, String createdAt, String text, String sourceHTML, boolean isRetweet, int retweetCount, int favoriteCount, List hashtags, List userMentions, List urls, List symbols) {
+    public Tweet(long tweetId, long userId, Calendar createdAt, String text, String source, String lang, Boolean isQuoteTweet, long quotedId, Boolean isRetweet, long retweetedId, int quoteCount, int retweetCount, int replyCount, int favoriteCount, String hashtags, String userMentions, String urls, String symbols) {
         this.tweetId = tweetId;
+        this.userId = userId;
         this.createdAt = createdAt;
         this.text = text;
-        this.sourceHTML = sourceHTML;
+        this.source = source;
+        this.lang = lang;
+        this.isQuoteTweet = isQuoteTweet;
+        this.quotedId = quotedId;
         this.isRetweet = isRetweet;
+        this.retweetedId = retweetedId;
+        this.quoteCount = quoteCount;
         this.retweetCount = retweetCount;
+        this.replyCount = replyCount;
         this.favoriteCount = favoriteCount;
         this.hashtags = hashtags;
-        UserMentions = userMentions;
+        this.userMentions = userMentions;
         this.urls = urls;
         this.symbols = symbols;
     }
 
-    public String getTweetId() {
+    public long getTweetId() {
         return tweetId;
     }
 
-    public void setTweetId(String tweetId) {
+    public void setTweetId(long tweetId) {
         this.tweetId = tweetId;
     }
 
-    public String getCreatedAt() {
+    public long getUserId() {
+        return userId;
+    }
+
+    public void setUserId(long userId) {
+        this.userId = userId;
+    }
+
+    public Calendar getCreatedAt() {
         return createdAt;
     }
 
-    public void setCreatedAt(String createdAt) {
+    public void setCreatedAt(Calendar createdAt) {
         this.createdAt = createdAt;
     }
 
@@ -56,19 +77,51 @@ public class Tweet {
         this.text = text;
     }
 
-    public String getSourceHTML() {
-        return sourceHTML;
+    public String getSource() {
+        return source;
     }
 
-    public void setSourceHTML(String sourceHTML) {
-        this.sourceHTML = sourceHTML;
+    public void setSource(String source) {
+        this.source = source;
     }
 
-    public boolean isRetweet() {
+    public String getLang() {
+        return lang;
+    }
+
+    public void setLang(String lang) {
+        this.lang = lang;
+    }
+
+    public Boolean getIsQuoteTweet() {
+        return isQuoteTweet;
+    }
+
+    public void setIsQuoteTweet(Boolean quoteTweet) {
+        isQuoteTweet = quoteTweet;
+    }
+
+    public int getQuoteCount() {
+        return quoteCount;
+    }
+
+    public void setQuoteCount(int quoteCount) {
+        this.quoteCount = quoteCount;
+    }
+
+    public long getQuotedId() {
+        return quotedId;
+    }
+
+    public void setQuotedId(long quotedId) {
+        this.quotedId = quotedId;
+    }
+
+    public Boolean getIsRetweet() {
         return isRetweet;
     }
 
-    public void setRetweet(boolean retweet) {
+    public void setIsRetweet(Boolean retweet) {
         isRetweet = retweet;
     }
 
@@ -80,6 +133,22 @@ public class Tweet {
         this.retweetCount = retweetCount;
     }
 
+    public long getRetweetedId() {
+        return retweetedId;
+    }
+
+    public void setRetweetedId(long retweetedId) {
+        this.retweetedId = retweetedId;
+    }
+
+    public int getReplyCount() {
+        return replyCount;
+    }
+
+    public void setReplyCount(int replyCount) {
+        this.replyCount = replyCount;
+    }
+
     public int getFavoriteCount() {
         return favoriteCount;
     }
@@ -88,35 +157,35 @@ public class Tweet {
         this.favoriteCount = favoriteCount;
     }
 
-    public List getHashtags() {
+    public String getHashtags() {
         return hashtags;
     }
 
-    public void setHashtags(List hashtags) {
+    public void setHashtags(String hashtags) {
         this.hashtags = hashtags;
     }
 
-    public List getUserMentions() {
-        return UserMentions;
+    public String getUserMentions() {
+        return userMentions;
     }
 
-    public void setUserMentions(List userMentions) {
-        UserMentions = userMentions;
+    public void setUserMentions(String userMentions) {
+        this.userMentions = userMentions;
     }
 
-    public List getUrls() {
+    public String getUrls() {
         return urls;
     }
 
-    public void setUrls(List urls) {
+    public void setUrls(String urls) {
         this.urls = urls;
     }
 
-    public List getSymbols() {
+    public String getSymbols() {
         return symbols;
     }
 
-    public void setSymbols(List symbols) {
+    public void setSymbols(String symbols) {
         this.symbols = symbols;
     }
 }
