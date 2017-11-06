@@ -1,11 +1,13 @@
 package edu.uc.it4045.tweetSalon.dto;
 
+import java.io.Serializable;
 import java.util.Calendar;
 
-public class Tweet {
+public class Tweet implements ITweet {
     private long tweetId;
     private long userId;
     private Calendar createdAt;
+    private Calendar accessedAt;
     private String text;
     private String source;
     private String lang;
@@ -24,10 +26,29 @@ public class Tweet {
 
     public Tweet(String tweetId) { }
 
-    public Tweet(long tweetId, long userId, Calendar createdAt, String text, String source, String lang, Boolean isQuoteTweet, long quotedId, Boolean isRetweet, long retweetedId, int quoteCount, int retweetCount, int replyCount, int favoriteCount, String hashtags, String userMentions, String urls, String symbols) {
+    public Tweet(long tweetId,
+                 long userId,
+                 Calendar createdAt,
+                 Calendar accessedAt,
+                 String text,
+                 String source,
+                 String lang,
+                 Boolean isQuoteTweet,
+                 long quotedId,
+                 Boolean isRetweet,
+                 long retweetedId,
+                 int quoteCount,
+                 int retweetCount,
+                 int replyCount,
+                 int favoriteCount,
+                 String hashtags,
+                 String userMentions,
+                 String urls,
+                 String symbols) {
         this.tweetId = tweetId;
         this.userId = userId;
         this.createdAt = createdAt;
+        this.accessedAt = accessedAt;
         this.text = text;
         this.source = source;
         this.lang = lang;
@@ -67,6 +88,14 @@ public class Tweet {
 
     public void setCreatedAt(Calendar createdAt) {
         this.createdAt = createdAt;
+    }
+
+    public Calendar getAccessedAt() {
+        return accessedAt;
+    }
+
+    public void setAccessedAt(Calendar accessedAt) {
+        this.accessedAt = accessedAt;
     }
 
     public String getText() {

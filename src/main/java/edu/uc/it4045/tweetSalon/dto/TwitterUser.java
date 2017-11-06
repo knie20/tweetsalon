@@ -1,11 +1,13 @@
 package edu.uc.it4045.tweetSalon.dto;
 
+import java.io.Serializable;
 import java.util.Calendar;
-import java.util.List;
 
 public class TwitterUser implements ITwitterUser {
     private long userId;
     private Calendar createdAt;
+    private Calendar accessedAt;
+    private String timeZone;
     private String displayName;
     private String handle;
     private String lang;
@@ -24,9 +26,29 @@ public class TwitterUser implements ITwitterUser {
 
     public TwitterUser() {}
 
-    public TwitterUser(long userId, Calendar createdAt, String displayName, String handle, String lang, String associatedUrl, String profileImageUrl, String profileSidebarBorderColor, String profileSidebarFillColor, String description, int followerCount, int friendCount, int statusesCount, int favoritesCount, int listedCount, Boolean accountIsProtected, Boolean accountIsVerified) {
+    public TwitterUser(long userId,
+                       Calendar createdAt,
+                       Calendar accessedAt,
+                       String timeZone,
+                       String displayName,
+                       String handle,
+                       String lang,
+                       String associatedUrl,
+                       String profileImageUrl,
+                       String profileSidebarBorderColor,
+                       String profileSidebarFillColor,
+                       String description,
+                       int followerCount,
+                       int friendCount,
+                       int statusesCount,
+                       int favoritesCount,
+                       int listedCount,
+                       Boolean accountIsProtected,
+                       Boolean accountIsVerified) {
         this.userId = userId;
         this.createdAt = createdAt;
+        this.accessedAt = accessedAt;
+        this.timeZone = timeZone;
         this.displayName = displayName;
         this.handle = handle;
         this.lang = lang;
@@ -59,6 +81,18 @@ public class TwitterUser implements ITwitterUser {
     public void setCreatedAt(Calendar createdAt) {
         this.createdAt = createdAt;
     }
+
+    public Calendar getAccessedAt() {
+        return accessedAt;
+    }
+
+    public void setAccessedAt(Calendar accessedAt) {
+        this.accessedAt = accessedAt;
+    }
+
+    public String getTimeZone() { return timeZone;}
+
+    public void setTimeZone(String timeZone) { this.timeZone = timeZone; }
 
     public String getDisplayName() {
         return displayName;

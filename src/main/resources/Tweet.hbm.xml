@@ -17,7 +17,7 @@
             <column name="text" length="280" not-null="true" unique="false"/>
         </property>
         <property name="source" type="java.lang.String">
-            <column name="source" length="32" not-null="true" unique="false"/>
+            <column name="source" length="128" not-null="true" unique="false"/>
         </property>
         <property name="lang" type="java.lang.String">
             <column name="lang" length="8" not-null="true" unique="false"/>

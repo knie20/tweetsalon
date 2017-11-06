@@ -10,6 +10,9 @@
         <property name="createdAt" type="java.util.Calendar">
             <column name="createdAt" not-null="true" unique="false"/>
         </property>
+        <property name="timeZone" type="java.lang.String">
+            <column name="timeZone" length="32" not-null="true" unique="false"/>
+        </property>
         <property name="displayName" type="java.lang.String">
             <column name="displayName" length="20" not-null="true" unique="false"/>
         </property>
