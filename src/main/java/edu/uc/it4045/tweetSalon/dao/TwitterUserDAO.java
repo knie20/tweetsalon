@@ -36,6 +36,11 @@ public class TwitterUserDAO implements ITwitterUserDAO {
         session.close();
     }
 
+    /**
+     * check if the user exists by the given ID
+     * @param userId
+     * @return true if user exists, false if user does not
+     */
     public Boolean dbHasUser(long userId){
         Query query = session.createQuery("from TwitterUser where userId = :userId");
         query.setParameter("userId", userId);
@@ -46,6 +51,11 @@ public class TwitterUserDAO implements ITwitterUserDAO {
         }
     }
 
+    /**
+     * check if the user exists by the given handle
+     * @param handle
+     * @return true if user exists, false if user does not
+     */
     public Boolean dbHasUser(String handle){
         Query query = session.createQuery("from TwitterUser where handle = :handle");
         query.setParameter("handle", handle);
