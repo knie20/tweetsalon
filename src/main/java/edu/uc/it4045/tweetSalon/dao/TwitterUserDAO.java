@@ -1,5 +1,7 @@
 package edu.uc.it4045.tweetSalon.dao;
 
+import com.sun.org.apache.xpath.internal.operations.Bool;
+import edu.uc.it4045.tweetSalon.dto.ITwitterUser;
 import edu.uc.it4045.tweetSalon.dto.TwitterUser;
 import edu.uc.it4045.tweetSalon.persistence.HibernateUtility;
 import org.hibernate.Query;
@@ -34,6 +36,27 @@ public class TwitterUserDAO implements ITwitterUserDAO {
         session.close();
     }
 
+    public Boolean dbHasUser(long userId){
+        Query query = session.createQuery("from TwitterUser where userId = :userId");
+        query.setParameter("userId", userId);
+        if(query.list().get(0) == null){
+            return false;
+        }else {
+            return true;
+        }
+    }
+
+    public Boolean dbHasUser(String handle){
+        Query query = session.createQuery("from TwitterUser where handle = :handle");
+        query.setParameter("handle", handle);
+        System.out.println("traps are gay " + query.list());
+        if(query.list().isEmpty()){
+            return false;
+        }else {
+            return true;
+        }
+    }
+
     /**
      * get all users. not recommended for regular use
      * @return a List of all TwitterUsers in the database
@@ -46,11 +69,11 @@ public class TwitterUserDAO implements ITwitterUserDAO {
 
     /**
      * retrieve user by the given Id. returns null if user doesn't exist
-     * @param id the Id of the user to be retrieved
+     * @param userId the Id of the user to be retrieved
      * @return
      */
-    public TwitterUser fetchUserById(int id){
-        return (TwitterUser) session.get(TwitterUser.class, id);
+    public TwitterUser fetchUserById(long userId){
+        return (TwitterUser) session.get(TwitterUser.class, userId);
     }
 
     /**
@@ -59,9 +82,15 @@ public class TwitterUserDAO implements ITwitterUserDAO {
      * @return TwitterUser object
      */
     public TwitterUser fetchUserByHandle(String handle){
-        Query query = session.createQuery("from twitter_users where handle = :handle");
+        ITwitterUser user = null;
+        Query query = session.createQuery("from TwitterUser where handle = :handle");
         query.setParameter("handle", handle);
-        return (TwitterUser) query.list().get(0);
+        List list = query.list();
+
+        if(!list.isEmpty()) {
+            user = (ITwitterUser) query.list().get(0);
+        }
+        return (TwitterUser) user;
     }
 
     /**
@@ -69,8 +98,8 @@ public class TwitterUserDAO implements ITwitterUserDAO {
      * @param userId the id of the user to be updated
      * @param user the TwitterUser object to update the user row with
      */
-    public void updateUserById(String userId, TwitterUser user){
-        Query query = session.createQuery("update twitter_users " +
+    public void updateUserById(long userId, TwitterUser user){
+        Query query = session.createQuery("update TwitterUser " +
                 "set accessedAt = :accessedAt," +
                 "set timeZone = :timeZone," +
                 "set displayName = :displayName," +
@@ -112,8 +141,8 @@ public class TwitterUserDAO implements ITwitterUserDAO {
      * remove user with given Id from DB
      * @param userId
      */
-    public void deleteUserById(String userId){
-        Query query = session.createQuery("delete from twitter_users where userId = :userId");
+    public void deleteUserById(long userId){
+        Query query = session.createQuery("delete TwitterUser where userId = :userId");
         query.setParameter("userId", userId);
         query.executeUpdate();
     }
@@ -123,7 +152,7 @@ public class TwitterUserDAO implements ITwitterUserDAO {
      * @param handle
      */
     public void deleteUserByHandle(String handle){
-        Query query = session.createQuery("delete from twitter_users where handle = :handle");
+        Query query = session.createQuery("delete TwitterUser where handle = :handle");
         query.setParameter("handle", handle);
         query.executeUpdate();
     }

@@ -1,9 +1,6 @@
 package edu.uc.it4045.tweetSalon.util;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.GregorianCalendar;
+import java.util.*;
 
 /**
  * Helper class for miscellaneous algorithms and services
@@ -46,5 +43,9 @@ public class MiscUtils {
             returnString = returnString.substring(0, returnString.length() - 1);
         }
         return returnString;
+    }
+
+    public static String buildRequestUrl(String base, Map<String, String> params){
+        return "";
     }
 }

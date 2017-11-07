@@ -5,13 +5,17 @@ import edu.uc.it4045.tweetSalon.dto.TwitterUser;
 public interface ITwitterUserDAO {
     void addUser(TwitterUser user);
 
-    TwitterUser fetchUserById(int id);
+    public Boolean dbHasUser(long userId);
+
+    public Boolean dbHasUser(String handle);
+
+    TwitterUser fetchUserById(long userId);
 
     TwitterUser fetchUserByHandle(String handle);
 
-    void updateUserById(String userId, TwitterUser user);
+    void updateUserById(long userId, TwitterUser user);
 
-    void deleteUserById(String userId);
+    void deleteUserById(long userId);
 
     void deleteUserByHandle(String handle);
 

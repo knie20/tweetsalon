@@ -42,7 +42,7 @@ public class TweetDAO implements ITweetDAO {
      * @param tweetId ID for the tweet to be fetched
      * @return
      */
-    public Tweet fetchTweetById(int tweetId){
+    public Tweet fetchTweetById(long tweetId){
         return (Tweet) session.get(Tweet.class, tweetId);
     }
 
@@ -51,8 +51,8 @@ public class TweetDAO implements ITweetDAO {
      * @param userId
      * @return
      */
-    public List<Tweet> fetchTweetsByUserId(String userId){
-        Query query = session.createQuery("from tweets where userId = :userId");
+    public List<Tweet> fetchTweetsByUserId(long userId){
+        Query query = session.createQuery("from Tweet where userId = :userId");
         query.setParameter("userId", userId);
         return query.list();
     }
@@ -63,8 +63,8 @@ public class TweetDAO implements ITweetDAO {
      * @param tweetId ID for the tweet to be updated
      * @param tweet the Tweet object used to update the corresponding row
      */
-    public void updateTweetById(String tweetId, Tweet tweet){
-        Query query = session.createQuery("update tweets " +
+    public void updateTweetById(long tweetId, Tweet tweet){
+        Query query = session.createQuery("update Tweet " +
                 "set accessedAt = :accessedAt," +
                 "set quoteCount = :quoteCount," +
                 "set retweetCount = :retweetCount," +
@@ -84,8 +84,8 @@ public class TweetDAO implements ITweetDAO {
      * remove this tweet from the DB
      * @param tweetId ID for the tweet in question
      */
-    public void removeTweetById(String tweetId){
-        Query query = session.createQuery("delete from tweets where tweetId = :tweetId");
+    public void removeTweetById(long tweetId){
+        Query query = session.createQuery("delete Tweet where tweetId = :tweetId");
         query.setParameter("tweetId", tweetId);
         query.executeUpdate();
     }
@@ -94,8 +94,8 @@ public class TweetDAO implements ITweetDAO {
      * remove every tweet from this user from the DB
      * @param userId ID of the user in question
      */
-    public void removeTweetByUser(String userId){
-        Query query = session.createQuery("delete from tweets where userId = :userId");
+    public void removeTweetByUser(long userId){
+        Query query = session.createQuery("delete Tweet where userId = :userId");
         query.setParameter("userId", userId);
         query.executeUpdate();
     }

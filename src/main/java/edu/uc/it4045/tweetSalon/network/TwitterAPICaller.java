@@ -11,7 +11,7 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 
-public class TwitterAPICaller {
+public class TwitterAPICaller implements ITwitterAPICaller {
 
     private TwitterAPIAuthenticator auth = new TwitterAPIAuthenticator();
 
@@ -44,12 +44,12 @@ public class TwitterAPICaller {
         // set up a GET request with the Authorization header
         CloseableHttpClient httpClient = HttpClientBuilder.create().build();
         HttpGet httpGet = new HttpGet(uri);
-        httpGet.addHeader("Authorization", bearerToken);
+        httpGet.addHeader("Authorization", "Bearer " + bearerToken);
         try {
             response = httpClient.execute(httpGet);
             HttpEntity httpEntity = response.getEntity();
             if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
-                content = new JSONObject(httpEntity);
+                content = new JSONObject(httpEntity.getContent());
             }
         } catch (IOException e) {
             e.printStackTrace();

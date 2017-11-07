@@ -17,7 +17,6 @@ import java.util.List;
 public class SearchUserBean implements Serializable {
     @ManagedProperty(value = "#{param.handle}")
     private String handle;
-    private TwitterUser user;
 
     public SearchUserBean() {}
 

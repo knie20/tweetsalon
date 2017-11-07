@@ -6,39 +6,31 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f524785-4d00-4067-a69b-58ff1acd1ae7" name="Default" comment="Added caching utility, JSON migrator, and added more functionalities to the DAOs.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_jcs_core_2_0_beta_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/ITweetDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/ITwitterUserDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/ITweet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPIAuthenticator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPICaller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPICallerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/CachingUtility.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/CachingUtilityTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/JSONMigrator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/MiscUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/cache.ccf" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/XMLMigrator.java" afterPath="" />
+    <list default="true" id="0f524785-4d00-4067-a69b-58ff1acd1ae7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/beans/ShowUserBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/TwitterUserDAOTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/ITwitterAPICaller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPIAuthenticatorTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/service/DataCruncher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/service/TwitterUserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/service/TwitterUserServiceTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/CachingUtilityTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/uc/it4045/tweetSalon/beans/SearchUserBean.class" afterPath="$PROJECT_DIR$/target/classes/edu/uc/it4045/tweetSalon/beans/SearchUserBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/uc/it4045/tweetSalon/dto/ITwitterUser.class" afterPath="$PROJECT_DIR$/target/classes/edu/uc/it4045/tweetSalon/dto/ITwitterUser.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/uc/it4045/tweetSalon/dto/Tweet.class" afterPath="$PROJECT_DIR$/target/classes/edu/uc/it4045/tweetSalon/dto/Tweet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/uc/it4045/tweetSalon/dto/TwitterUser.class" afterPath="$PROJECT_DIR$/target/classes/edu/uc/it4045/tweetSalon/dto/TwitterUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tweetSalon.war" afterPath="$PROJECT_DIR$/target/tweetSalon.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/tweetSalon_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/tweetSalon_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/beans/SearchUserBean.java" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/beans/SearchUserBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/ITweetDAO.java" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/ITweetDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/ITwitterUserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/ITwitterUserDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/TweetDAO.java" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/TweetDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/TwitterUserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/TwitterUserDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/ITwitterUser.java" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/ITwitterUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/Tweet.java" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/Tweet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/TwitterUser.java" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/TwitterUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Tweet.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/Tweet.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/TwitterUser.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/TwitterUser.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tweetSalon.iml" afterPath="$PROJECT_DIR$/tweetSalon.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPIAuthenticator.java" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPIAuthenticator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPICaller.java" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPICaller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPICallerTest.java" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPICallerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/MiscUtils.java" afterPath="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/MiscUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/user.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/user.xhtml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,130 +47,27 @@
     <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48123324">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="SearchUserBean.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/beans/SearchUserBean.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="cache.ccf" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/cache.ccf">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TweetDAO.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/TweetDAO.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="370">
-                  <caret line="77" column="33" lean-forward="true" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#441#442#0" expanded="true" />
-                    <element signature="e#522#523#0" expanded="true" />
-                    <element signature="e#1193#1194#0" expanded="true" />
-                    <element signature="e#1257#1258#0" expanded="true" />
-                    <element signature="e#3545#3546#0" expanded="true" />
-                    <element signature="e#3576#3577#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="544">
-                  <caret line="32" column="84" lean-forward="false" selection-start-line="32" selection-start-column="84" selection-end-line="32" selection-end-column="84" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TwitterUser.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/TwitterUser.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#2803#2804#0" expanded="true" />
-                    <element signature="e#2836#2837#0" expanded="true" />
-                    <element signature="e#2890#2891#0" expanded="true" />
-                    <element signature="e#2934#2935#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ITwitterUser.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/ITwitterUser.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TwitterUserDAO.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/TwitterUserDAO.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-                  <folding>
-                    <element signature="e#606#607#0" expanded="true" />
-                    <element signature="e#682#683#0" expanded="true" />
-                    <element signature="e#1503#1504#0" expanded="true" />
-                    <element signature="e#1574#1575#0" expanded="true" />
-                    <element signature="e#5302#5303#0" expanded="true" />
-                    <element signature="e#5333#5334#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Tweet.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/Tweet.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#2520#2521#0" expanded="true" />
-                    <element signature="e#2553#2554#0" expanded="true" />
-                    <element signature="e#2607#2608#0" expanded="true" />
-                    <element signature="e#2651#2652#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
         <leaf>
-          <file leaf-file-name="JSONMigrator.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/JSONMigrator.java">
+          <file leaf-file-name="TwitterUserService.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/service/TwitterUserService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="756">
-                  <caret line="63" column="43" lean-forward="false" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+                <state relative-caret-position="218">
+                  <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DataCruncher.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/service/DataCruncher.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -186,8 +75,8 @@
           <file leaf-file-name="TwitterAPIAuthenticator.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPIAuthenticator.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="280">
-                  <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+                <state relative-caret-position="561">
+                  <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -195,35 +84,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CachingUtility.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/CachingUtility.java">
+          <file leaf-file-name="TwitterAPICaller.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPICaller.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#902#903#0" expanded="true" />
-                    <element signature="e#936#937#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TwitterUser.hbm.xml" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/TwitterUser.hbm.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MiscUtils.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/MiscUtils.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="246">
-                  <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="53" />
+                <state relative-caret-position="191">
+                  <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -235,20 +100,140 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPICallerTest.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="153">
-                  <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+                  <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TwitterAPICaller.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPICaller.java">
+          <file leaf-file-name="TwitterAPIAuthenticatorTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPIAuthenticatorTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+                <state relative-caret-position="170">
+                  <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TwitterUserServiceTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/service/TwitterUserServiceTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Tweet.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/Tweet.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="Tweet.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/Tweet.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TwitterUser.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/TwitterUser.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TwitterUser.hbm.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/TwitterUser.hbm.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ReflectionUtils.java" pinned="false" current-in-tab="false">
+            <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.1/junit-platform-commons-1.0.1-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="329">
+                  <caret line="391" column="0" lean-forward="false" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SessionImpl.java" pinned="false" current-in-tab="false">
+            <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.5.Final/hibernate-core-4.3.5.Final-sources.jar!/org/hibernate/internal/SessionImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1066">
+                  <caret line="954" column="0" lean-forward="false" selection-start-line="954" selection-start-column="0" selection-end-line="954" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ITwitterUserDAO.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/ITwitterUserDAO.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TweetDAO.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/TweetDAO.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="236">
+                  <caret line="54" column="50" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TwitterUserDAO.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/TwitterUserDAO.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1428">
+                  <caret line="101" column="57" lean-forward="true" selection-start-line="101" selection-start-column="57" selection-end-line="101" selection-end-column="57" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ITweetDAO.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/ITweetDAO.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -268,9 +253,9 @@
         <option value="Arquillian JUnit Test Class" />
         <option value="FxmlFile" />
         <option value="Tag Library Descriptor" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -297,10 +282,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/UserBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/UserBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/beans/UserBean.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/params.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/package.json" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/Entities.java" />
@@ -321,30 +302,37 @@
         <option value="$PROJECT_DIR$/src/main/resources/Tweet.hbm.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/user.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/XMLMigrator.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/APIAuthenticator.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/cache.ccf" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/TokenCachingUtility.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/TokenCachingUtilityTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPICallerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/CacheUtility.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/CachingUtilityTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPIAuthenticator.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Tweet.hbm.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/CachingUtility.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/MiscUtils.java" />
         <option value="$PROJECT_DIR$/src/main/resources/TwitterUser.hbm.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/ITwitterUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/TwitterUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/Tweet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPICaller.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/JSONMigrator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/TweetDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/TwitterUserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPIAuthenticator.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/user.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/beans/SearchUserBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/beans/ShowUserBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/MiscUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/service/TwitterUserServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/service/TwitterUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPICaller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPICallerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPIAuthenticatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/ITweetDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/ITwitterUserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/TweetDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/TwitterUserDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/TwitterUserDAO.java" />
       </list>
     </option>
   </component>
@@ -470,7 +458,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tweetSalon" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tweetSalon" type="b2602c69:ProjectViewProjectNode" />
@@ -495,6 +483,39 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tweetSalon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tweetSalon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tweetSalon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tweetSalon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tweetSalon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tweetSalon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tweetSalon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tweetSalon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -517,14 +538,17 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="edu.uc.it4045.tweetSalon.util" />
       <recent name="edu.uc.it4045.tweetSalon.network" />
+      <recent name="edu.uc.it4045.tweetSalon.dao" />
       <recent name="edu.uc.it4045.tweetSalon.service" />
+      <recent name="edu.uc.it4045.tweetSalon.util" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="edu.uc.it4045.tweetSalon.network" />
       <recent name="edu.uc.it4045.tweetSalon.dao" />
       <recent name="edu.uc.it4045.tweetSalon.dto" />
     </key>
@@ -551,82 +575,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CachingUtilityTest">
-    <configuration name="CachingUtilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="edu.uc.it4045.tweetSalon.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="tweetSalon" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.uc.it4045.tweetSalon.util" />
-      <option name="MAIN_CLASS_NAME" value="edu.uc.it4045.tweetSalon.util.CachingUtilityTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="CachingUtilityTest.getFromCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="edu.uc.it4045.tweetSalon.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="tweetSalon" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.uc.it4045.tweetSalon.util" />
-      <option name="MAIN_CLASS_NAME" value="edu.uc.it4045.tweetSalon.util.CachingUtilityTest" />
-      <option name="METHOD_NAME" value="getFromCache" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="CachingUtilityTest.putInCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="edu.uc.it4045.tweetSalon.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="tweetSalon" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.uc.it4045.tweetSalon.util" />
-      <option name="MAIN_CLASS_NAME" value="edu.uc.it4045.tweetSalon.util.CachingUtilityTest" />
-      <option name="METHOD_NAME" value="putInCache" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TwitterUserDAOTest.updateUserById">
     <configuration name="Tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.20" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
@@ -699,19 +648,19 @@
         </option>
       </method>
     </configuration>
-    <configuration name="TwitterAPICallerTest.getUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TwitterUserDAOTest.deleteUserByHandle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="edu.uc.it4045.tweetSalon.network.*" />
+          <option name="PATTERN" value="edu.uc.it4045.tweetSalon.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="tweetSalon" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.uc.it4045.tweetSalon.network" />
-      <option name="MAIN_CLASS_NAME" value="edu.uc.it4045.tweetSalon.network.TwitterAPICallerTest" />
-      <option name="METHOD_NAME" value="getUser" />
+      <option name="PACKAGE_NAME" value="edu.uc.it4045.tweetSalon.dao" />
+      <option name="MAIN_CLASS_NAME" value="edu.uc.it4045.tweetSalon.dao.TwitterUserDAOTest" />
+      <option name="METHOD_NAME" value="deleteUserByHandle" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -724,19 +673,94 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UserServiceTest.getUserFromDBByHandle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TwitterUserDAOTest.deleteUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="edu.uc.it4045.tweetSalon.service.*" />
+          <option name="PATTERN" value="edu.uc.it4045.tweetSalon.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="tweetSalon" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.uc.it4045.tweetSalon.service" />
-      <option name="MAIN_CLASS_NAME" value="edu.uc.it4045.tweetSalon.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="getUserFromDBByHandle" />
+      <option name="PACKAGE_NAME" value="edu.uc.it4045.tweetSalon.dao" />
+      <option name="MAIN_CLASS_NAME" value="edu.uc.it4045.tweetSalon.dao.TwitterUserDAOTest" />
+      <option name="METHOD_NAME" value="deleteUserById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TwitterUserDAOTest.fetchUserByHandle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.uc.it4045.tweetSalon.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="tweetSalon" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.uc.it4045.tweetSalon.dao" />
+      <option name="MAIN_CLASS_NAME" value="edu.uc.it4045.tweetSalon.dao.TwitterUserDAOTest" />
+      <option name="METHOD_NAME" value="fetchUserByHandle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TwitterUserDAOTest.fetchUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.uc.it4045.tweetSalon.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="tweetSalon" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.uc.it4045.tweetSalon.dao" />
+      <option name="MAIN_CLASS_NAME" value="edu.uc.it4045.tweetSalon.dao.TwitterUserDAOTest" />
+      <option name="METHOD_NAME" value="fetchUserById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TwitterUserDAOTest.updateUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.uc.it4045.tweetSalon.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="tweetSalon" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.uc.it4045.tweetSalon.dao" />
+      <option name="MAIN_CLASS_NAME" value="edu.uc.it4045.tweetSalon.dao.TwitterUserDAOTest" />
+      <option name="METHOD_NAME" value="updateUserById" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -832,19 +856,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.UserServiceTest.getUserFromDBByHandle" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TwitterAPICallerTest.getUser" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CachingUtilityTest.putInCache" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CachingUtilityTest.getFromCache" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.CachingUtilityTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TwitterUserDAOTest.fetchUserById" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TwitterUserDAOTest.deleteUserById" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TwitterUserDAOTest.deleteUserByHandle" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TwitterUserDAOTest.fetchUserByHandle" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TwitterUserDAOTest.updateUserById" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CachingUtilityTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CachingUtilityTest.getFromCache" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CachingUtilityTest.putInCache" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TwitterAPICallerTest.getUser" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UserServiceTest.getUserFromDBByHandle" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TwitterUserDAOTest.updateUserById" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TwitterUserDAOTest.fetchUserById" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TwitterUserDAOTest.fetchUserByHandle" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TwitterUserDAOTest.deleteUserByHandle" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TwitterUserDAOTest.deleteUserById" />
       </list>
     </recent_temporary>
   </component>
@@ -871,7 +895,7 @@
       <workItem from="1505844623772" duration="2438000" />
       <workItem from="1509462286760" duration="4898000" />
       <workItem from="1509637833356" duration="183000" />
-      <workItem from="1509674496964" duration="83405000" />
+      <workItem from="1509674496964" duration="109788000" />
     </task>
     <task id="LOCAL-00001" summary="added file structure">
       <created>1506125913158</created>
@@ -901,50 +925,56 @@
       <option name="project" value="LOCAL" />
       <updated>1509785231066</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added caching utility, JSON migrator, and added more functionalities to the DAOs.">
+      <created>1509948135530</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1509948135530</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CachingUtilityTest - 2017.11.05 at 15h 32m 45s.xml">
-      <configuration name="CachingUtilityTest" configurationId="JUnit" />
+    <history-entry file="TwitterUserDAOTest_fetchUserByHandle - 2017.11.07 at 01h 26m 35s.xml">
+      <configuration name="TwitterUserDAOTest.fetchUserByHandle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CachingUtilityTest - 2017.11.05 at 15h 50m 29s.xml">
-      <configuration name="CachingUtilityTest" configurationId="JUnit" />
+    <history-entry file="TwitterUserDAOTest_fetchUserById - 2017.11.07 at 01h 29m 36s.xml">
+      <configuration name="TwitterUserDAOTest.fetchUserById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CachingUtilityTest - 2017.11.05 at 15h 50m 37s.xml">
-      <configuration name="CachingUtilityTest" configurationId="JUnit" />
+    <history-entry file="TwitterUserDAOTest_fetchUserById - 2017.11.07 at 01h 39m 08s.xml">
+      <configuration name="TwitterUserDAOTest.fetchUserById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CachingUtilityTest_getFromCache - 2017.11.05 at 15h 32m 34s.xml">
-      <configuration name="CachingUtilityTest.getFromCache" configurationId="JUnit" />
+    <history-entry file="TwitterUserDAOTest_updateUserById - 2017.11.07 at 01h 26m 53s.xml">
+      <configuration name="TwitterUserDAOTest.updateUserById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CachingUtilityTest_putInCache - 2017.11.05 at 15h 23m 59s.xml">
-      <configuration name="CachingUtilityTest.putInCache" configurationId="JUnit" />
+    <history-entry file="TwitterUserDAOTest_updateUserById - 2017.11.07 at 01h 39m 31s.xml">
+      <configuration name="TwitterUserDAOTest.updateUserById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CachingUtilityTest_putInCache - 2017.11.05 at 15h 32m 12s.xml">
-      <configuration name="CachingUtilityTest.putInCache" configurationId="JUnit" />
+    <history-entry file="TwitterUserDAOTest_updateUserById - 2017.11.07 at 01h 40m 24s.xml">
+      <configuration name="TwitterUserDAOTest.updateUserById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CachingUtilityTest_putInCache - 2017.11.05 at 15h 32m 17s.xml">
-      <configuration name="CachingUtilityTest.putInCache" configurationId="JUnit" />
+    <history-entry file="TwitterUserServiceTest - 2017.11.07 at 01h 29m 35s.xml">
+      <configuration name="TwitterUserServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwitterAPICallerTest_getUser - 2017.11.04 at 22h 53m 27s.xml">
-      <configuration name="TwitterAPICallerTest.getUser" configurationId="JUnit" />
+    <history-entry file="TwitterUserServiceTest - 2017.11.07 at 01h 29m 36s.xml">
+      <configuration name="TwitterUserServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwitterAPICallerTest_getUser - 2017.11.04 at 22h 53m 44s.xml">
-      <configuration name="TwitterAPICallerTest.getUser" configurationId="JUnit" />
+    <history-entry file="TwitterUserServiceTest_getUserByHandle - 2017.11.07 at 01h 29m 35s.xml">
+      <configuration name="TwitterUserServiceTest.getUserByHandle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwitterAPICallerTest_getUser - 2017.11.04 at 22h 57m 02s.xml">
-      <configuration name="TwitterAPICallerTest.getUser" configurationId="JUnit" />
+    <history-entry file="TwitterUserServiceTest_getUserByHandle - 2017.11.07 at 01h 29m 36s.xml">
+      <configuration name="TwitterUserServiceTest.getUserByHandle" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137773000" />
+    <option name="totallyTimeSpent" value="164156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27704194" sideWeight="0.5022801" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3361612" sideWeight="0.5072917" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.307947" sideWeight="0.49375" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -954,19 +984,19 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3361612" sideWeight="0.49270833" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33934253" sideWeight="0.484375" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25874868" sideWeight="0.5104167" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41675505" sideWeight="0.515625" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22057264" sideWeight="0.49322918" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25132555" sideWeight="0.48697916" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25874868" sideWeight="0.48958334" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25874868" sideWeight="0.48958334" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -993,47 +1023,19 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/TwitterUserDAOTest.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="39" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ey.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/package.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/Entities.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/TweetEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/head.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="52" lean-forward="false" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/beans/Navigation.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/service/UserServiceTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/params.xhtml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/beans/UserInfoBean.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/IUserDAO.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/SimpleTwitterUser.java" />
@@ -1061,14 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1106,14 +1100,6 @@
           <folding>
             <element signature="e#2003#2004#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.5.Final/hibernate-core-4.3.5.Final-sources.jar!/org/hibernate/internal/SessionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="701" column="0" lean-forward="false" selection-start-line="701" selection-start-column="0" selection-end-line="701" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,34 +1142,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/beans/NavigationBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/XMLMigrator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/user.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1212,60 +1174,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/CachingUtility.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cache.ccf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Tweet.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/ITwitterUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="84" lean-forward="false" selection-start-line="32" selection-start-column="84" selection-end-line="32" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/TwitterUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2803#2804#0" expanded="true" />
-            <element signature="e#2836#2837#0" expanded="true" />
-            <element signature="e#2890#2891#0" expanded="true" />
-            <element signature="e#2934#2935#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPICallerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/MiscUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="53" />
+        <state relative-caret-position="102">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1282,20 +1202,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPICaller.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="103" column="17" lean-forward="false" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/CachingUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#735#736#0" expanded="false" />
+            <element signature="e#771#772#0" expanded="false" />
+            <element signature="e#817#818#0" expanded="false" />
+            <element signature="e#855#856#0" expanded="false" />
+            <element signature="e#902#903#0" expanded="false" />
+            <element signature="e#936#937#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/beans/NavigationBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/beans/SearchUserBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/user.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/beans/ShowUserBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="21" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPIAuthenticator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/util/MiscUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        <state relative-caret-position="286">
+          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+          <folding>
+            <element signature="e#1886#1887#0" expanded="true" />
+            <element signature="e#1911#1912#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Tweet.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/ITwitterAPICaller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/service/TwitterUserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/service/DataCruncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPICaller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1305,29 +1340,111 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/Tweet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2520#2521#0" expanded="true" />
-            <element signature="e#2553#2554#0" expanded="true" />
-            <element signature="e#2607#2608#0" expanded="true" />
-            <element signature="e#2651#2652#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPIAuthenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/service/TwitterUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/TwitterUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/ITweetDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/ITwitterUserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.5.Final/hibernate-core-4.3.5.Final-sources.jar!/org/hibernate/internal/SessionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1066">
+          <caret line="954" column="0" lean-forward="false" selection-start-line="954" selection-start-column="0" selection-end-line="954" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPICallerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.1/junit-platform-commons-1.0.1-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="391" column="0" lean-forward="false" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/TwitterUserDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/network/TwitterAPIAuthenticatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/TwitterUser.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dto/ITwitterUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/TweetDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="236">
+          <caret line="54" column="50" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1336,48 +1453,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/TwitterUserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding>
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#1503#1504#0" expanded="true" />
-            <element signature="e#1574#1575#0" expanded="true" />
-            <element signature="e#5302#5303#0" expanded="true" />
-            <element signature="e#5333#5334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/beans/SearchUserBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="1428">
+          <caret line="101" column="57" lean-forward="true" selection-start-line="101" selection-start-column="57" selection-end-line="101" selection-end-column="57" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cache.ccf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uc/it4045/tweetSalon/dao/TweetDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="77" column="33" lean-forward="true" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1257#1258#0" expanded="true" />
-            <element signature="e#3545#3546#0" expanded="true" />
-            <element signature="e#3576#3577#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

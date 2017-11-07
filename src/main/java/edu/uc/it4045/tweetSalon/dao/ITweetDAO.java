@@ -7,15 +7,15 @@ import java.util.List;
 public interface ITweetDAO {
     void addTweet(Tweet tweet);
 
-    Tweet fetchTweetById(int tweetId);
+    Tweet fetchTweetById(long tweetId);
 
-    List<Tweet> fetchTweetsByUserId(String userId);
+    List<Tweet> fetchTweetsByUserId(long userId);
 
-    void updateTweetById(String tweetId, Tweet tweet);
+    void updateTweetById(long tweetId, Tweet tweet);
 
-    void removeTweetById(String tweetId);
+    void removeTweetById(long tweetId);
 
-    void removeTweetByUser(String userId);
+    void removeTweetByUser(long userId);
 
     void closeSession();
 }

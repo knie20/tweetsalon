@@ -103,7 +103,6 @@
       <version>2.0-beta-1</version>
     </dependency>
 
-
   </dependencies>
   <build>
     <finalName>tweetSalon</finalName>
